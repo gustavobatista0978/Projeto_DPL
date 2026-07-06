@@ -13,8 +13,8 @@
 | **POST** | `/aluguel` | id, cliente (body JSON) | confirmação + alteração de disponibilidade | 201 / 400 / 404 |
 
 ##  Decisões de projeto (justificadas)
-* **plataforma** vai na query URL porque é um filtro público de busca — pode aparecer abertamente na barra do navegador (o "envelope").
-* **usuario** e **senha** vão no body JSON porque são dados privados e confidenciais (a "carta").
+* **plataforma** vai na query URL porque é um filtro público de busca — pode aparecer abertamente na barra do navegador.
+* **usuario** e **senha** vão no body JSON porque são dados privados e confidenciais.
 * **/aluguel** responde `400` quando falta um campo obrigatório de validação (ex: sem o nome do cliente) ou quando o jogo já se encontra alugado (indisponível), `404` quando o ID do jogo não existe no catálogo, e `201` quando o aluguel é registrado com sucesso.
 * Dados guardados em um vetor na memória — se o servidor for reiniciado, o status de disponibilidade dos jogos volta ao estado inicial.
 
