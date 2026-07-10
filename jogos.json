@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "God of War Ragnarök",
+        "plataforma": "ps5",
+        "disponivel": true
+    },
+    {
+        "id": 2,
+        "nome": "Halo Infinite",
+        "plataforma": "xbox",
+        "disponivel": true
+    },
+    {
+        "id": 3,
+        "nome": "Zelda Tears of the Kingdom",
+        "plataforma": "switch",
+        "disponivel": true
+    },
+    {
+        "id": 4,
+        "nome": "Spider-Man 2",
+        "plataforma": "ps5",
+        "disponivel": true
+    },
+    {
+        "id": 5,
+        "nome": "Forza Horizon 5",
+        "plataforma": "xbox",
+        "disponivel": true
+    }
+]
