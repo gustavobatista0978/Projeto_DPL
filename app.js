@@ -27,6 +27,10 @@ app.get("/jogos", (req, res) => {
     res.status(200).json(jogosFiltrados);
 });
 
+app.get("/aluguel", (req, res) => {
+    res.sendFile(path.join(__dirname, "public", "aluguel.html"));
+});
+
 app.post("/login", (req, res) => {
 
     const { usuario, senha } = req.body;
